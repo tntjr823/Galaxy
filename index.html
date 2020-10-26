@@ -5,48 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galaxy</title>
   <link rel="stylesheet" href="./css/reset.css">
+  <link
+  rel="stylesheet"
+  href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+/>
   <link rel="stylesheet" href="./css/main.css">
+
 </head>
 <body>
   <!-- header -->
   <header>
-    <a href="#">갤럭시</a>
-    <ul>
-      <li><a href="#">메뉴1</a></li>
-      <li><a href="#">메뉴2</a></li>
-      <li><a href="#">메뉴3</a></li>
-      <li><a href="#">메뉴4</a></li>
-      <li><a href="#">메뉴5</a></li>
-      <li><a href="#">메뉴6</a></li>
-    </ul>
-    <i>장바구니 아이콘</i>
+    <div class="h_container">
+      <a class="logo" href="#"><img src="./images/logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">스마트폰</a></li>
+        <li><a href="#">태블릿</a></li>
+        <li><a href="#">워치</a></li>
+        <li><a href="#">버즈</a></li>
+        <li><a href="#">기타</a></li>
+      </ul>
+      <a href="#"><i class="xi-cart-o"></i></a>
+    </div>
   </header>
   <!-- slider -->
   <div class="slider">
     <div class="sd_container">
-      <h2>Galaxy tab 7 5G런칭</h2>
-      <a href="#">자세히 보기</a>
-      <div class="btn01"><a href="#">구매혜택보기</a></div>
+      <div class="sd_left">
+        <h2>Galaxy tab 7 5G<br>런칭</h2>
+        <div class="sd_btn">
+          <a class="btn01" href="#">자세히 보기</a>
+          <div class="btn02"><a href="#">구매혜택보기</a></div>
+        </div>
+      </div>
+      <div class="g_tap">
+        <img src="./images/tab-s7.png" alt="">
+      </div>
     </div>
-    <div class="g_tap">
-      <img src="" alt="탭">
-    </div>
+  </div>
     <div class="contents">
       <!-- section01 -->
       <div class="section sec_01">
         <div class="container">
-          <div class="sec01_item">
-            <img src="" alt="시계ov">
-            <h4>watch</h4>
-            <p>보다 완벽해진 스마트 헬스케어 워치</p>
-            <div class="btn02"><a href="#">자세히 보기</a></div>
+          <div class="sec01_item1">
+            <img src="./images/watch-ov.png" alt="">
+            <div class="sec01_item2">
+              <h4>Watch</h4>
+              <p>보다 완벽해진 스마트 헬스케어 워치</p>
+              <div class="btn02"><a href="#">자세히 보기</a></div>
+            </div>
           </div>
 
-          <div class="sec01_item">
-            <img src="" alt="버즈">
-            <h4>watch</h4>
-            <p>처음 만나는 갤럭시 오픈형 무선 이어폰</p>
-            <div class="btn02"><a href="#">자세히 보기</a></div>
+          <div class="sec01_item1">
+            <img src="./images/buds.png" alt="">
+            <div class="sec01_item2">
+              <h4>Buds</h4>
+              <p>처음 만나는 갤럭시 오픈형 무선 이어폰</p>
+              <div class="btn02"><a href="#">자세히 보기</a></div>
+          </div>
           </div>
         </div>
       </div>
@@ -57,26 +73,26 @@
           <p>당신에게 꼭 맞는 갤럭시는?</p>
           <div class="sec02_photo">
             <div class="item">
-              <img src="" alt="2시계">
+              <img src="./images/watch.png" alt="">
             </div>
             <div class="item">
-              <img src="" alt="노트">
+              <img src="./images/note.png" alt="">
             </div>
             <div class="item">
-              <img src="" alt="버즈">
+              <img src="./images/buds.png" alt="">
             </div>
             <div class="item">
-              <img src="" alt="폴드">
+              <img src="./images/fold.png" alt="">
             </div>
           </div>
         </div>
       </div>
       <!-- section03 -->
-      <div class="section sec_02">
+      <div class="section sec_03">
         <div class="container">
           <h2>갤럭시 핏</h2>
           <p>
-            수면, 심박수, 스트레스 등 다양한 데이터를 쉽게 확인하고
+            수면, 심박수, 스트레스 등 다양한 데이터를 쉽게 확인하고<br>
             파워풀 배터리로 걱정없이 오래 착용 할 수 있습니다.
           </p>
           <div class="btn01"><a href="#">구매혜택보기</a></div>
@@ -87,30 +103,32 @@
         <div class="container">
           <h3>찾고있는 Galaxy가 있나요?</h3>
           <p>당신에게 꼭 맞는 갤럭시는?</p>
-          <div class="sec04_photo">
+          <div class="sec04_photo1">
+              <div class="item">
+                <img src="./images/watch.png" alt="">
+              </div>
+              <div class="item">
+                <img src="./images/buds-ov.png" alt="">
+              </div>
+              <div class="item">
+                <img src="./images/note-ov.png" alt="">
+              </div>
+              <div class="item">
+                <img src="./images/fold.png" alt="">
+              </div>
+          </div>
+          <div class="sec04_photo2">
             <div class="item">
-              <img src="" alt="시계">
+              <img src="./images/buds.png" alt="">
             </div>
             <div class="item">
-              <img src="" alt="버즈라이브">
+              <img src="./images/note.png" alt="">
             </div>
             <div class="item">
-              <img src="" alt="노트울트라">
+              <img src="./images/watch-ov.png" alt="">
             </div>
             <div class="item">
-              <img src="" alt="폴드">
-            </div>
-            <div class="item">
-              <img src="" alt="버즈플러스">
-            </div>
-            <div class="item">
-              <img src="" alt="노트">
-            </div>
-            <div class="item">
-              <img src="" alt="시계ov">
-            </div>
-            <div class="item">
-              <img src="" alt="버즈라이브">
+              <img src="./images/buds-ov.png" alt="">
             </div>
           </div>
         </div>
@@ -122,13 +140,13 @@
           <p>당신의 삶을 변화시킬 5G</p>
           <div class="sec05_photo">
             <div class="banner">
-              <img src="" alt="5g사진">
+              <img src="./images/image-2.jpg" alt="">
             </div>
             <div class="banner">
-              <img src="" alt="풍경사진">
+              <img src="./images/image-3.jpg" alt="">
             </div>
             <div class="banner">
-              <img src="" alt="노트사진">
+              <img src="./images/image-4.jpg" alt="">
             </div>
           </div>
         </div>
@@ -136,10 +154,20 @@
       <!-- footer -->
       <div class="footer">
         <div class="container">
-          
+          <div class="left">
+            <h3>Galaxy</h3>
+            <p>
+              여러분의 이메일 주소를 보내주세요.
+              갤러시의 새로운 소식을 빠르고 간편하게 확인 할 수 있습니다.
+            </p>
+            <div class="ft_btn">
+              <div class="btn01"><i class="xi-apple"></i><a href="#">App Store</a></div>
+              <div class="btn02"><i class="xi-google-play"></i><a href="#">Play Store</a></div>
+            </div>
+          </div>
+          <div class="right"></div>
         </div>
       </div>
-    </div>
-  </div>
+    </div>  
 </body>
 </html>
