@@ -16,9 +16,9 @@ a {
 
 /* header */
 header {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
   background: #ffff;
 }
@@ -52,12 +52,33 @@ header {
   color: #eb5757;
 }
 
+.h_icon {
+  display: flex;
+  position: relative;
+}
+
 .h_container a i {
+  font-size: 20px;
   color: #111111;
 }
 
 .h_container a i:hover {
   color: #eb5757;
+}
+
+.h_box {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  display: block;
+  background: #ff0000;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 16px;
+  font-size: 10px;
+  color: #ffffff;
 }
 
 /* slider */
@@ -182,7 +203,7 @@ header {
 /* section02 */
 .sec_02 .container h3 {
   margin-bottom: 32px;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: bold;
   color: #111111;
   text-align: center;
@@ -237,7 +258,6 @@ header {
 
 .sec_03 .container p {
   font-size: 24px;
-  font-weight: bold;
   color: #ffffff;
   margin-bottom: 56px;
 }
@@ -314,7 +334,6 @@ header {
 }
 
 .sec_05 .container h3 {
-  margin-top: 140px;
   margin-bottom: 32px;
   font-size: 36px;
   font-weight: bold;
@@ -475,13 +494,4 @@ header {
 
 .footer .right .bottom_menu > li > ul > li > a {
   color: #f2f2f2;
-}
-
-.ft_box {
-  position: absolute;
-  left: 0;
-  bottom: -33px;
-  width: 160px;
-  height: 68px;
-  background: #c4c4c4;
 }
