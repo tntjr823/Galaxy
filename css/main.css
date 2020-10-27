@@ -347,11 +347,34 @@ header {
   margin-bottom: 66px;
 }
 
-.sec05_photo .banner img {
+.sec05_photo {
+  margin-bottom: 140px;
+}
+
+.sec05_photo .banner1 {
   width: 360px;
   height: 360px;
+  background: url(../images/image-2.jpg);
+  background-position: center;
+  background-size: cover;
   margin-right: 42px;
-  margin-bottom: 140px;
+}
+
+.sec05_photo .banner2 {
+  width: 360px;
+  height: 360px;
+  background: url(../images/image-3.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 42px;
+}
+
+.sec05_photo .banner3 {
+  width: 360px;
+  height: 360px;
+  background: url(../images/image-4.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* footer */
